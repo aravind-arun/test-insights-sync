@@ -19,13 +19,6 @@
                                 }
                             },
                             {
-                                "name": "contentLength",
-                                "in": "header",
-                                "schema": {
-                                    "type": "string"
-                                }
-                            },
-                            {
                                 "name": "xForwardedFor",
                                 "in": "header",
                                 "schema": {
