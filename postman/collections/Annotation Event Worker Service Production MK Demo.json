@@ -1,0 +1,299 @@
+{
+	"info": {
+		"_postman_id": "41591747-c436-432b-9ade-3d6d33a7e618",
+		"name": "Annotation Event Worker Service Production MK Demo",
+		"description": "Schema Generated and maintained by API Observability service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "907238-41591747-c436-432b-9ade-3d6d33a7e618"
+	},
+	"item": [
+		{
+			"name": "/event",
+			"id": "a7cb05d0-d81f-48da-be02-d66c63a10998",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "contentLength",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "connection",
+						"value": "<string>"
+					},
+					{
+						"key": "contentType",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptEncoding",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/event",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "a2e4000c-f9ab-48e8-b533-0ae97e0d2e47",
+					"name": "OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "contentLength",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "connection",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/event",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"event"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "Duis laborum in eiusmod nostrud",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "Duis laborum in eiusmod nostrud",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "Duis laborum in eiusmod nostrud",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "Duis laborum in eiusmod nostrud",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/knockknock",
+			"id": "5cefea68-0f99-4bc2-bb4d-73f9107a0b52",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "contentLength",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "connection",
+						"value": "<string>"
+					},
+					{
+						"key": "contentType",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptEncoding",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/knockknock",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"knockknock"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "c92c2efc-0268-48a9-9107-a373bc223376",
+					"name": "OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "contentLength",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "connection",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/knockknock",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"knockknock"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "Duis laborum in eiusmod nostrud",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "Duis laborum in eiusmod nostrud",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "Duis laborum in eiusmod nostrud",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "Duis laborum in eiusmod nostrud",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"id": "89ab92ee-fa8e-4a0a-9de9-4e435ed2fb5b",
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}
