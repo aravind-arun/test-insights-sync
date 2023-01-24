@@ -7,7 +7,7 @@
     },
     "servers": [],
     "paths": {
-        "/event": {
+        "/knockknock": {
             "post": {
                 "parameters": [
                     {
@@ -75,7 +75,86 @@
                                     "type": "string"
                                 }
                             },
-                            "vary": {
+                            "eTag": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            "contentType": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/event": {
+            "post": {
+                "parameters": [
+                    {
+                        "name": "host",
+                        "in": "header",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "contentLength",
+                        "in": "header",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "xForwardedFor",
+                        "in": "header",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "connection",
+                        "in": "header",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "contentType",
+                        "in": "header",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "xRealIp",
+                        "in": "header",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "userAgent",
+                        "in": "header",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "acceptEncoding",
+                        "in": "header",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "headers": {
+                            "contentLength": {
                                 "schema": {
                                     "type": "string"
                                 }

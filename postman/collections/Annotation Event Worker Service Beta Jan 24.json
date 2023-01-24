@@ -1,156 +1,15 @@
 {
 	"info": {
-		"_postman_id": "6e1adac1-1188-430d-88e6-b4d9c3c44826",
-		"name": "Annotation Event Worker Service Production MK Demo",
+		"_postman_id": "ba1776c0-6cc9-4635-95a3-e28ea0a83e49",
+		"name": "Annotation Event Worker Service Beta Jan 24",
 		"description": "Schema Generated and maintained by API Observability service",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "1255604-6e1adac1-1188-430d-88e6-b4d9c3c44826"
+		"_uid": "1255604-ba1776c0-6cc9-4635-95a3-e28ea0a83e49"
 	},
 	"item": [
 		{
-			"name": "/event",
-			"id": "a6c92a30-8dfe-4728-923a-cc55649bd669",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "host",
-						"value": "<string>"
-					},
-					{
-						"key": "contentLength",
-						"value": "<string>"
-					},
-					{
-						"key": "xForwardedFor",
-						"value": "<string>"
-					},
-					{
-						"key": "connection",
-						"value": "<string>"
-					},
-					{
-						"key": "contentType",
-						"value": "<string>"
-					},
-					{
-						"key": "xRealIp",
-						"value": "<string>"
-					},
-					{
-						"key": "userAgent",
-						"value": "<string>"
-					},
-					{
-						"key": "acceptEncoding",
-						"value": "<string>"
-					}
-				],
-				"url": {
-					"raw": "{{baseUrl}}/event",
-					"host": [
-						"{{baseUrl}}"
-					],
-					"path": [
-						"event"
-					]
-				}
-			},
-			"response": [
-				{
-					"id": "d450ba91-210e-4913-93fd-95434bcc1459",
-					"name": "OK",
-					"originalRequest": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "host",
-								"value": "<string>"
-							},
-							{
-								"key": "contentLength",
-								"value": "<string>"
-							},
-							{
-								"key": "xForwardedFor",
-								"value": "<string>"
-							},
-							{
-								"key": "connection",
-								"value": "<string>"
-							},
-							{
-								"key": "contentType",
-								"value": "<string>"
-							},
-							{
-								"key": "xRealIp",
-								"value": "<string>"
-							},
-							{
-								"key": "userAgent",
-								"value": "<string>"
-							},
-							{
-								"key": "acceptEncoding",
-								"value": "<string>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/event",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"event"
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "text",
-					"_postman_previewtype": "html",
-					"header": [
-						{
-							"disabled": false,
-							"key": "contentLength",
-							"value": "Duis laborum in eiusmod nostrud",
-							"description": ""
-						},
-						{
-							"disabled": false,
-							"key": "vary",
-							"value": "Duis laborum in eiusmod nostrud",
-							"description": ""
-						},
-						{
-							"disabled": false,
-							"key": "eTag",
-							"value": "Duis laborum in eiusmod nostrud",
-							"description": ""
-						},
-						{
-							"disabled": false,
-							"key": "contentType",
-							"value": "Duis laborum in eiusmod nostrud",
-							"description": ""
-						},
-						{
-							"key": "Content-Type",
-							"value": "text/plain"
-						}
-					],
-					"cookie": [],
-					"body": ""
-				}
-			]
-		},
-		{
 			"name": "/knockknock",
-			"id": "91d93884-42d2-468c-8117-593b7cc4e87e",
+			"id": "f52a53db-d518-489e-a025-6f259c40d61f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -202,7 +61,7 @@
 			},
 			"response": [
 				{
-					"id": "03e24d29-7c52-4d00-8fbb-81eb5932a7d9",
+					"id": "881dc6b7-5f51-40be-b3b4-7a0e9815506b",
 					"name": "OK",
 					"originalRequest": {
 						"method": "POST",
@@ -253,30 +112,157 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
-					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
 							"key": "contentLength",
-							"value": "Duis laborum in eiusmod nostrud",
-							"description": ""
-						},
-						{
-							"disabled": false,
-							"key": "vary",
-							"value": "Duis laborum in eiusmod nostrud",
+							"value": "pariatur dolor elit",
 							"description": ""
 						},
 						{
 							"disabled": false,
 							"key": "eTag",
-							"value": "Duis laborum in eiusmod nostrud",
+							"value": "pariatur dolor elit",
 							"description": ""
 						},
 						{
 							"disabled": false,
 							"key": "contentType",
-							"value": "Duis laborum in eiusmod nostrud",
+							"value": "pariatur dolor elit",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/event",
+			"id": "dbb477a9-e2df-4ef0-823a-48109b43abed",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "contentLength",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "connection",
+						"value": "<string>"
+					},
+					{
+						"key": "contentType",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptEncoding",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/event",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "58d64827-c01a-4471-85db-832670657d87",
+					"name": "OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "contentLength",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "connection",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/event",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"event"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "pariatur dolor elit",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "pariatur dolor elit",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "pariatur dolor elit",
 							"description": ""
 						},
 						{
@@ -292,7 +278,7 @@
 	],
 	"variable": [
 		{
-			"id": "89ab92ee-fa8e-4a0a-9de9-4e435ed2fb5b",
+			"id": "e8f981aa-1540-46e0-8884-c4ec4534abbc",
 			"key": "baseUrl",
 			"value": "/",
 			"type": "string"
